@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanjeev Reddy - AI/ML Engineer & Web Developer</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Sanjeev Reddy" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Sanjeev Reddy Nersi">Nersi Sai Venkata Sanjeev Reddy</h1>
+
+          <p class="title">Software Developer + AI & ML Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:sanjeev.reddy2004@gmail.com" class="contact-link">sanjeev.reddy2004@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+918328272358" class="contact-link">+91 8328272358</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-05-13">13 May, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Visakhapatnam, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/sanjeev-reddy-a8b777291/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/sanjeev-reddy-13" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/sanjeev_reddy_nersi_2123" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Achievements</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Computer Science Graduate with a strong foundation in Software Development, Data Structures, Machine Learning, and Data Science. I have hands-on experience building end-to-end ML systems and real-world applications with measurable performance improvements. My expertise spans full-stack web development (MERN, Flask, FastAPI) combined with advanced ML techniques like RAG, NLP, and LLMs.
+          </p>
+
+          <p>
+            My technical journey includes developing production-oriented ML models, implementing RAG pipelines for intelligent systems, and creating scalable web applications. I've improved model accuracy from 93.4% to 98.7% through hyperparameter tuning and advanced optimization techniques. I'm actively seeking Software, Data, or Machine Learning Engineer roles where I can contribute innovative solutions and drive measurable impact.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-solid fa-code" aria-hidden="true"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Competitive Programming</h4>
+
+                <p class="service-item-text">
+                  Strong problem-solving skills with experience solving 200+ DSA problems on LeetCode and CodeChef.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-solid fa-server" aria-hidden="true"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development</h4>
+
+                <p class="service-item-text">
+                  Designing scalable REST APIs, authentication systems, and server-side applications using Flask, FastAPI, and MongoDB.
+                </p>
+              </div>
+
+            </li>
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-solid fa-microchip" aria-hidden="true"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI/ML Engineering</h4>
+
+                <p class="service-item-text">
+                  Building intelligent systems using Machine Learning, Deep Learning, NLP, and LLM-based applications with scalable architectures.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-solid fa-brain" aria-hidden="true"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Developing ML Models</h4>
+
+                <p class="service-item-text">
+                  Professional development of machine learning models for intelligent applications across platforms.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-solid fa-robot" aria-hidden="true"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">RAG &amp; LLM Solutions</h4>
+
+                <p class="service-item-text">
+                  Developing AI assistants using Retrieval-Augmented Generation, vector databases, FAISS, BM25, and large language models.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  Performing data preprocessing, visualization, feature engineering, and predictive analytics using Python and ML libraries.
+                </p>
+              </div>
+
+            </li>
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-solid fa-compass-drafting" aria-hidden="true"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-solid fa-tower-broadcast" aria-hidden="true"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Real-Time Systems</h4>
+
+                <p class="service-item-text">
+                  Building responsive applications with real-time communication, concurrent user handling, and optimized backend performance.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-solid fa-camera-retro" aria-hidden="true"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Gayatri Vidya Parishad College of Engineering</h4>
+              <span>2022 — 2026</span>
+              <div class="timeline-meta">
+                <p class="timeline-text timeline-degree">B.Tech in Computer Science and Engineering</p>
+                <p class="timeline-text timeline-focus">Specialization in Artificial Intelligence and Machine Learning</p>
+                <div class="timeline-badges">
+                  <span class="timeline-badge">CGPA: 8.6/10</span>
+                </div>
+                <p class="timeline-text timeline-location">Madhurawada, Vizag, Andhra Pradesh</p>
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Ascent Junior College</h4>
+              <span>2020 — 2022</span>
+              <div class="timeline-meta">
+                <p class="timeline-text timeline-degree">Class 12, MPC</p>
+                <div class="timeline-badges">
+                  <span class="timeline-badge">Percentage: 94.9%</span>
+                </div>
+                <p class="timeline-text timeline-location">Sampath Vinayaka Temple, Vizag, Andhra Pradesh</p>
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Sri Chaitanya EM School</h4>
+              <span>2020</span>
+              <div class="timeline-meta">
+                <p class="timeline-text timeline-degree">Class 10, SSC State Board</p>
+                <div class="timeline-badges">
+                  <span class="timeline-badge">Percentage: 96%</span>
+                </div>
+                <p class="timeline-text timeline-location">Anakapalle, Vizag, Andhra Pradesh</p>
+              </div>
+            </li>
+
+          </ol>
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item" style="position:relative;">
+              <!-- Certificate icon at top-right -->
+              <img
+                src="./assets/images/salesforce_img.png"
+                alt="Salesforce Certificate"
+                class="certificate-thumb"
+                data-certificate-img="./assets/images/salesforce.png"
+                title="View Salesforce Certificate"
+                style="position:absolute;top:18px;right:18px;width:32px;height:32px;cursor:pointer;z-index:2;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,0.12);background:#fff;"
+              />
+              <h4 class="h4 timeline-item-title">Salesforce Developer Virtual Internship</h4>
+              <span>Nov 2024 — Jan 2025</span>
+              <p class="timeline-text">
+                Completed 8 weeks of intensive training covering Salesforce Fundamentals, Apex, Lightning Web Components, Org Setup & CLI, and Process Automation. Earned Super Badge certifications in Apex Specialist, Process Automation Specialist, and Developer Super Set.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">AICTE - Google AI/ML Virtual Internship</h4>
+              <span>Apr 2024 — Jun 2024</span>
+              <p class="timeline-text">
+                Developed and evaluated production-oriented machine learning models using Python, TensorFlow, and Scikit-learn. Implemented supervised and unsupervised learning pipelines with feature engineering and hyperparameter tuning. Improved model accuracy from 93.4% to 98.7% using regularization and cross-validation techniques.
+              </p>
+            </li>
+
+          </ol>
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+          <p class="skills-intro">
+            A blend of AI engineering, backend development, and data-focused problem solving for building practical, scalable products.
+          </p>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Languages</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+              <p style="color: #bdbdbd; font-size: 0.95rem; margin-top: 4px;">Python • C++ • SQL</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+              <p style="color: #bdbdbd; font-size: 0.95rem; margin-top: 4px;">MERN Stack • Flask • FastAPI • REST APIs</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning & AI</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+              <p style="color: #bdbdbd; font-size: 0.95rem; margin-top: 4px;">Regression Models • Classification Models • TensorFlow • Scikit-learn • LLMs • NLP • RAG</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Science & Visualization</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+              <p style="color: #bdbdbd; font-size: 0.95rem; margin-top: 4px;">Pandas • NumPy • Matplotlib • Seaborn</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Databases & Tools</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+              <p style="color: #bdbdbd; font-size: 0.95rem; margin-top: 4px;">MySQL • MongoDB • Git • GitHub • Docker</p>
+            </li>
+
+            <li class="skills-item competencies-card" style="color: #bdbdbd;">
+              <h4 style="margin-bottom: 8px; color: var(--orange-yellow-crayola); font-size: 1rem;">Core Competencies</h4>
+              <ul style="padding-left: 24px; list-style-type: disc;">
+                <li>Data Structures & Algorithms</li>
+                <li>Object-Oriented Programming (OOP)</li>
+                <li>System Design Basics</li>
+                <li>API Integration</li>
+                <li>Agile Development</li>
+              </ul>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <!-- Projects -->
+      <article class="portfolio" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="project-list">
+
+            <!-- Project 1 -->
+            <li class="project-item active" data-filter-item data-category="Projects">
+              <a href="#" class="project-details-trigger" data-project-id="lexconnect">
+                <figure class="project-img">
+                  <img src="./assets/images/project-1.png" alt="LexConnect" loading="lazy">
+                </figure>
+                <h3 class="project-title">LexConnect: AI Legal Marketplace</h3>
+                <p class="project-category">MERN • Python • RAG • LLM</p>
+                <p class="project-summary" style="color:#bdbdbd; font-size:0.97rem; margin:0 18px 10px 18px;">
+                  Scalable full-stack platform for lawyer discovery with AI-powered legal assistant using hybrid RAG pipeline (FAISS + BM25).
+                </p>
+              </a>
+              <div class="project-actions">
+                <a href="https://github.com/sanjeev-reddy-13/lexconnect-Legal-Service-Platform" class="project-view-link project-github-btn" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                <a href="#" class="project-view-link project-description-btn" data-project-id="lexconnect">View Description</a>
+                
+              </div>
+            </li>
+
+            <!-- Project 2 -->
+            <li class="project-item active" data-filter-item data-category="Projects">
+              <a href="#" class="project-details-trigger" data-project-id="stock-market-sentiment">
+                <figure class="project-img">
+                  <img src="./assets/images/flight price prediction.png" alt="Stock Market Prediction" loading="lazy">
+                </figure>
+                <h3 class="project-title">Stock Market Sentiment Analysis</h3>
+                <p class="project-category">Python • LSTM • NLP</p>
+                <p class="project-summary" style="color:#bdbdbd; font-size:0.97rem; margin:0 18px 10px 18px;">
+                  End-to-end sentiment-based stock prediction pipeline using 50K+ financial news with 92% classification accuracy.
+                </p>
+              </a>
+              <div class="project-actions">
+                <a href="#" class="project-view-link project-github-btn">GitHub Repo</a>
+                <a href="#" class="project-view-link project-description-btn" data-project-id="stock-market-sentiment">View Description</a>
+                
+              </div>
+            </li>
+
+            <!-- Project 3 -->
+            <li class="project-item active" data-filter-item data-category="Projects">
+              <a href="#" class="project-details-trigger" data-project-id="flight-fare-prediction">
+                <figure class="project-img">
+                  <img src="./assets/images/flight price prediction.png" alt="Flight Fare Prediction" loading="lazy">
+                </figure>
+                <h3 class="project-title">Flight Fare Prediction</h3>
+                <p class="project-category">Flask • ML Ensemble • Web App</p>
+                <p class="project-summary" style="color:#bdbdbd; font-size:0.97rem; margin:0 18px 10px 18px;">
+                  Ensemble ML model using 9 algorithms for accurate flight price prediction with automated preprocessing.
+                </p>
+              </a>
+              <div class="project-actions">
+                <a href="https://github.com/sanjeev-reddy-13/Flight_price_prediction" class="project-view-link project-github-btn" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                <a href="#" class="project-view-link project-description-btn" data-project-id="flight-fare-prediction">View Description</a>
+                
+              </div>
+            </li>
+
+            <!-- Project 4 -->
+            <li class="project-item active" data-filter-item data-category="Projects">
+              <a href="#" class="project-details-trigger" data-project-id="restaurant-listing-search">
+                <figure class="project-img">
+                  <img src="./assets/images/project-1.png" alt="Restaurant Listing and Searching" loading="lazy">
+                </figure>
+                <h3 class="project-title">Restaurant Listing &amp; Searching</h3>
+                <p class="project-category">Flask • Python • Hugging Face • JS • HTML • CSS</p>
+                <p class="project-summary" style="color:#bdbdbd; font-size:0.97rem; margin:0 18px 10px 18px;">
+                  Location-based restaurant discovery with image-based searching powered by Hugging Face models.
+                </p>
+              </a>
+              <div class="project-actions">
+                <a href="https://github.com/sanjeev-reddy-13/RestaurantFinder" class="project-view-link project-github-btn">GitHub Repo</a>
+                <a href="#" class="project-view-link project-description-btn" data-project-id="restaurant-listing-search">View Description</a>
+                
+              </div>
+            </li>
+
+            <!-- Project 5 -->
+            <li class="project-item active" data-filter-item data-category="Projects">
+              <a href="#" class="project-details-trigger" data-project-id="nlp-ecommerce-chatbot">
+                <figure class="project-img">
+                  <img src="./assets/images/project-1.png" alt="End-to-End NLP Ecommerce Chatbot" loading="lazy">
+                </figure>
+                <h3 class="project-title">End-to-End NLP Ecommerce Chatbot</h3>
+                <p class="project-category">Dialogflow â€¢ SQL â€¢ NLP</p>
+                <p class="project-summary" style="color:#bdbdbd; font-size:0.97rem; margin:0 18px 10px 18px;">
+                  Ecommerce chatbot workflow built with Dialogflow and SQL for conversational query handling and product-related interactions.
+                </p>
+              </a>
+              <div class="project-actions">
+                <a href="#" class="project-view-link project-github-btn">GitHub Repo</a>
+                <a href="#" class="project-view-link project-description-btn" data-project-id="nlp-ecommerce-chatbot">View Description</a>
+                
+              </div>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <!-- Certifications -->
+      <article class="portfolio" data-page="certifications">
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="project-list">
+
+            <!-- Certification 1: ServiceNow -->
+            <li class="project-item active" data-filter-item data-category="Certifications">
+              <a href="#" data-certificate-img="./assets/images/Servicenow.png">
+                <figure class="project-img">
+                  <img src="./assets/images/servicenow_img.png" alt="ServiceNow CSA" loading="lazy">
+                </figure>
+                <h3 class="project-title">Certified System Administrator</h3>
+                <p class="project-category">ServiceNow • 2025</p>
+                <p style="color:#bdbdbd; font-size:0.97rem; margin:0 18px 10px 18px;">
+                  Certified in managing, configuring, and maintaining ServiceNow instances with workflow automation.
+                </p>
+                <span class="project-view-link">Show Certificate</span>
+              </a>
+            </li>
+
+            <!-- Certification 2: Salesforce -->
+            <li class="project-item active" data-filter-item data-category="Certifications">
+              <a href="#" data-certificate-img="./assets/images/salesforce.png">
+                <figure class="project-img">
+                  <img src="./assets/images/salesforce_img.png" alt="Salesforce" loading="lazy">
+                </figure>
+                <h3 class="project-title">Salesforce Developer</h3>
+                <p class="project-category">SmartInternz • Jan 2025</p>
+                <p style="color:#bdbdbd; font-size:0.97rem; margin:0 18px 10px 18px;">
+                  Completed comprehensive Salesforce training including Apex, LWC, and Process Automation Super Badges.
+                </p>
+                <span class="project-view-link">Show Certificate</span>
+              </a>
+            </li>
+
+            <!-- Certification 3: Java -->
+            <li class="project-item active" data-filter-item data-category="Certifications">
+              <a href="#" data-certificate-img="./assets/images/java-certificate.png">
+                <figure class="project-img">
+                  <img src="./assets/images/java.png" alt="Java Programming" loading="lazy">
+                </figure>
+                <h3 class="project-title">Introduction to Java</h3>
+                <p class="project-category">UC3M edX • 2024</p>
+                <p style="color:#bdbdbd; font-size:0.97rem; margin:0 18px 10px 18px;">
+                  Verified edX certificate for Java programming fundamentals and OOP concepts.
+                </p>
+                <span class="project-view-link">Show Certificate</span>
+              </a>
+            </li>
+
+            <!-- Certification 4: Python -->
+            <li class="project-item active" data-filter-item data-category="Certifications">
+              <a href="#" data-certificate-img="./assets/images/python-certificate.png">
+                <figure class="project-img">
+                  <img src="./assets/images/python.png" alt="Python" loading="lazy">
+                </figure>
+                <h3 class="project-title">Python for Beginners</h3>
+                <p class="project-category">Infosys • Mar 2024</p>
+                <p style="color:#bdbdbd; font-size:0.97rem; margin:0 18px 10px 18px;">
+                  Infosys Springboard certification for Python programming fundamentals and applications.
+                </p>
+                <span class="project-view-link">Show Certificate</span>
+              </a>
+            </li>
+
+            <!-- Certification 5: IoT -->
+            <li class="project-item active" data-filter-item data-category="Certifications">
+              <a href="#" data-certificate-img="./assets/images/iot-certificate.png">
+                <figure class="project-img">
+                  <img src="./assets/images/iot.png" alt="IoT Certification" loading="lazy">
+                </figure>
+                <h3 class="project-title">Introduction to IoT</h3>
+                <p class="project-category">NPTEL • Oct 2024</p>
+                <p style="color:#bdbdbd; font-size:0.97rem; margin:0 18px 10px 18px;">
+                  NPTEL Elite certification with 87% score in Introduction to Internet of Things (12-week course).
+                </p>
+                <span class="project-view-link">Show Certificate</span>
+              </a>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!-- Replace the existing blog article with this -->
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Achievements</h2>
+        </header>
+
+        <section class="achievements-section">
+          <ul class="achievements-list">
+            <li class="achievement-item">
+              <div class="achievement-content">
+                <h3 class="h3 achievement-title">
+                  <ion-icon name="trophy-outline"></ion-icon>
+                  LeetCode Elite
+                </h3>
+                <p class="achievement-text">
+                  <ion-icon name="star"></ion-icon>
+                  <strong>1500+ Contest Rating</strong>
+                </p>
+                <p class="achievement-text">
+                  <ion-icon name="checkmark-done-outline"></ion-icon>
+                  Solved 200+ DSA & Algorithm Problems
+                </p>
+                <p class="achievement-text">
+                  <ion-icon name="flash"></ion-icon>
+                  Strong problem-solving foundation
+                </p>
+                <a href="https://leetcode.com/u/sanjeevreddy13/" class="achievement-link" target="_blank">View Profile ↗</a>
+              </div>
+            </li>
+
+            <li class="achievement-item">
+              <div class="achievement-content">
+                <h3 class="h3 achievement-title">
+                  <ion-icon name="code-outline"></ion-icon>
+                  CodeChef Coder
+                </h3>
+                <p class="achievement-text">
+                  <ion-icon name="ribbon-outline"></ion-icon>
+                  <strong>1550+ Contest Rating</strong>
+                </p>
+                <p class="achievement-text">
+                  <ion-icon name="medal-outline"></ion-icon>
+                  Competitive programming excellence
+                </p>
+                <p class="achievement-text">
+                  <ion-icon name="trending-up-outline"></ion-icon>
+                  Advanced problem-solving skills
+                </p>
+                <a href="https://www.codechef.com/users/sanjeevreddy_2004" class="achievement-link" target="_blank">View Profile ↗</a>
+              </div>
+            </li>
+
+            <li class="achievement-item">
+              <div class="achievement-content">
+                <h3 class="h3 achievement-title">
+                  <ion-icon name="school-outline"></ion-icon>
+                  NPTEL Elite Performer
+                </h3>
+                <p class="achievement-text">
+                  <ion-icon name="medal-outline"></ion-icon>
+                  <strong>87% in Introduction to IoT</strong>
+                </p>
+                <p class="achievement-text">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+                  Elite certification (12-week course)
+                </p>
+                <p class="achievement-text">
+                  <ion-icon name="certificate-outline"></ion-icon>
+                  Top performer among 33,131 candidates
+                </p>
+                <a href="https://drive.google.com/file/d/1mdxVDLEDZ-uhXdZi7FohyzrgzryxUXob/view?usp=drive_link" class="achievement-link" target="_blank">View Certificate ↗</a>
+              </div>
+            </li>
+
+            <li class="achievement-item">
+              <div class="achievement-content">
+                <h3 class="h3 achievement-title">
+                  <ion-icon name="layers-outline"></ion-icon>
+                  ML Excellence
+                </h3>
+                <p class="achievement-text">
+                  <ion-icon name="trending-up-outline"></ion-icon>
+                  <strong>Model Accuracy: 93.4% → 98.7%</strong>
+                </p>
+                <p class="achievement-text">
+                  <ion-icon name="flash"></ion-icon>
+                  Google AI/ML Internship Achievement
+                </p>
+                <p class="achievement-text">
+                  <ion-icon name="checkmark-done"></ion-icon>
+                  Advanced hyperparameter tuning & optimization
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.626282993233!2d83.16889331487697!3d17.68681568792716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a395c7b7b7b7b7b%3A0x7b7b7b7b7b7b7b7b!2sGajuwaka%2C%20Visakhapatnam%2C%20Andhra%20Pradesh%20530026%2C%20India!5e0!3m2!1sen!2sin!4v1718030000000!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Certificate Modal (place this as the last element inside <body>) -->
+  <div id="certificate-modal" class="certificate-modal">
+    <div class="certificate-modal-overlay" id="certificate-modal-overlay"></div>
+    <div class="certificate-modal-content">
+      <button class="certificate-modal-close" id="certificate-modal-close">
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+      <img id="certificate-modal-img" src="" alt="Certificate" onerror="this.src='./assets/images/placeholder.png';this.alt='Certificate not found';" />
+    </div>
+  </div>
+</body>
+</html>
